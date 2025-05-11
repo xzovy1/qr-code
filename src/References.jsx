@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from "react"
+import { useState, useEffect } from "react"
 
 const References = () => {
     const generateDummy = () => {
@@ -8,20 +8,16 @@ const References = () => {
         }
         return arr;
     }
-    // const listRef = useRef(null);
-    const listRef = document.querySelector('ul');
     const [references, setReferences] = useState(generateDummy);
     const [index, setIndex] = useState(0);
     
     useEffect(()=>{
         function updateIndex(newIndex){
-            if(newIndex == 21)return setIndex(0)
+            if(newIndex == 22)return setIndex(0)
             setIndex(newIndex + 1)
         }
-        // updateIndex();
        let timer = setInterval(() => {
             updateIndex(index)
-            console.log(index)
         }, 2500)
 
         return () => clearInterval(timer);
@@ -37,8 +33,6 @@ const References = () => {
                 {references.map(ref => <li className="reference" key={ref.id}>{ref.name}</li>)}
             </ul>
             </div>
-            
-            
         </div>
     )
 }

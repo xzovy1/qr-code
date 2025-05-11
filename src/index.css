@@ -29,9 +29,14 @@
   transition: transform 750ms;
   font-size: larger;
   align-self: center;
+  cursor: pointer;
 }
 
 .nav-bar div:hover {
+  transform: scale(1.2);
+}
+
+.scale{
   transform: scale(1.2);
 }
 

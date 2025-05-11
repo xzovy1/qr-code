@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <Navbar setToggled={setToggled}/>
-      <Content displayed={toggled}/>
+      <Content toggled={toggled}/>
     </>
   )
 }

@@ -2,11 +2,10 @@ import References from "./References";
 import About from "./About";
 import OtherPublications from "./OtherPublications";
 
-const Content = ({displayed}) => {
-
-    if(displayed == 'references')return <References />
-    else if(displayed == 'about')return <About />
-    else if(displayed == 'other')return <OtherPublications />
+const Content = ({toggled}) => {
+    if(toggled == 'references')return <References />
+    else if(toggled == 'about')return <About />
+    else if(toggled == 'publications')return <OtherPublications />
     else return (<></>)
 
 }
