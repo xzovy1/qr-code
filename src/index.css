@@ -123,3 +123,23 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+@media (min-width:300px)  {
+  #root{
+    width: 100%;
+  }
+  ul{
+    align-self: center;
+    margin: 0 auto;
+  }
+  .reference{
+    font-size: medium;
+  }
+  .body{
+    display: flex;
+    flex-direction: column;
+  }
+  .reference-list{
+    width: 100%;
+  }
+}
