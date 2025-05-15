@@ -13,9 +13,6 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-#root{
-    width: 50vw;
-}
 .nav-bar{
   display: grid;
   grid-template-columns:  1fr 1fr 1fr;
