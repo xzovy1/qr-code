@@ -129,6 +129,12 @@ button:focus-visible {
 @media (max-width:450px)  {
   #root{
     width: 100%;
+    max-width: 100vw;
+    /* padding: 5px; */
+    overflow: hidden;
+  }
+  .nav-bar div {
+    font-size: medium;
   }
   ul{
     align-self: center;
