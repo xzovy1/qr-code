@@ -1,4 +1,4 @@
-import brittany from '/src/assets/brittany.jpg'
+import brittany from '/assets/brittany.jpg'
 const About = () => {
     return (
         <div className="body">

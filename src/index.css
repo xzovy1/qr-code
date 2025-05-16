@@ -135,6 +135,18 @@ button:focus-visible {
   }
 }
 
+@media (max-width:1077px){
+  #root{
+    width: 45vw;
+  }
+}
+
+@media (max-width:600px){
+  #root{
+    width: 70vw;
+  }
+}
+
 @media (max-width:450px)  {
   #root{
     width: 100%;
