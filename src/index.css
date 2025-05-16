@@ -73,6 +73,7 @@ ul{
   width: 50vw;
   height: 50vh;
   overflow: hidden;
+  text-align: left;
 }
 
 
@@ -92,6 +93,15 @@ body {
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+}
+
+.body{
+  min-height: 50vh;
+}
+
+.brittany-img{
+  width: 40%;
+  border-radius: 5px;
 }
 
 button {

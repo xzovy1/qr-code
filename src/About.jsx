@@ -1,10 +1,12 @@
 const About = () => {
     return (
         <div className="body">
-            <h2>Hi! I'm Brittany!</h2>
-            <div>A Ph.D Candidate at the University of Alberta.</div>
+            <h2>Hi, I'm Brittany!</h2>
+            <img src="src/assets/IMG_6132.jpg" alt="" className="brittany-img"/>
+            <div>I'm a Ph.D. Candidate in the Dennis lab at the University of Alberta.</div>
             
             <div>Connect with me on <a href="https://www.linkedin.com/in/brittany-supina-241830268/">linkedin</a></div>
+            <div>or at <u>supina@ualberta.ca</u></div>
         </div>
     )
 }
