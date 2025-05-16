@@ -20,4 +20,4 @@ const Publications = () => {
     )
 }
 
-export default OtherPublications
+export default Publications
