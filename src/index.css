@@ -100,8 +100,9 @@ h1 {
 }
 
 .brittany-img{
-  width: 40%;
+  width: 50%;
   border-radius: 5px;
+  align-self: center;
 }
 
 button {
@@ -160,4 +161,5 @@ button:focus-visible {
   .reference-list{
     width: 100%;
   }
+
 }
