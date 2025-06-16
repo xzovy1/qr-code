@@ -13,7 +13,7 @@ const Navbar = ({setToggled}) => {
             <div onClick={()=>{scaleNav(1); setToggled('about')}}>About</div>
             <div onClick={()=>{scaleNav(2); setToggled('publications')}}>Publications</div>
         </div>
-        <h1>BCID 2025</h1>
+        <h1>CSM 2025</h1>
         </>
     )
 }

@@ -4,7 +4,10 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  background-color: rgba(255, 255, 255, 0.87);
+
+
+  background: #9db0fa;
+  background: linear-gradient(219deg,rgba(157, 176, 250, 1) 0%, rgba(255, 122, 149, 1) 100%);
   color: #242424;
 
   font-synthesis: none;
@@ -20,7 +23,7 @@
 .nav-bar{
   display: grid;
   grid-template-columns:  1fr 1fr 1fr;
-  background-color: #646cff;
+  background-color: #ffffffa0;
   border-radius: 5px;
   margin: 5px;
   padding: 5px;
@@ -63,13 +66,13 @@ ul{
 .body{
   border-radius: 5px;  
   padding-bottom: 10px;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.507);
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   word-wrap: break-word;
 }
 
 .reference-list {
-  height: 400px;
+  height: 410px;
   overflow: hidden;
   text-align: left;
 }
@@ -78,6 +81,7 @@ ul{
 .reference{
   font-size: larger;
   margin: 8px;
+  max-height: 250px;
 }
 
 body {
