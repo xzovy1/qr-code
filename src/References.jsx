@@ -11,10 +11,9 @@ const References = () => {
     // }
     // const [references, setReferences] = useState(referenceList);
     const [index, setIndex] = useState(0);
-    
     useEffect(()=>{
         function updateIndex(newIndex){
-            if(newIndex == referenceList.length)return setIndex(0)
+            if(newIndex == referenceList.length - 2)return setIndex(0)
             setIndex(newIndex + 1)
         }
        let timer = setInterval(() => {
@@ -29,7 +28,7 @@ const References = () => {
             
             <div className="reference-list">
 
-            <ul style={{ transform: `translateY(-${index * 125}px)`}}>
+            <ul style={{ transform: `translateY(-${index * 200}px)`}}>
                 {/* {references.map(ref => <li className="reference" key={crypto.randomUUID()}>{ref}</li>)} */}
                 <li className="reference"> 
                     1. Ortega, L., and Rojas, C.M. (2021). Bacterial panicle blight and <i>Burkholderia glumae</i>: from
