@@ -2,14 +2,6 @@ import { useState, useEffect } from "react";
 import referenceList from "./referenceList";
 
 const References = () => {
-    // const generateDummy = () => {
-    //     let arr = []
-    //     for (let i = 1; i < 30; i++){
-    //         arr.push({id: i,  name: `Dummy Reference ${i}`})
-    //     }
-    //     return arr;
-    // }
-    // const [references, setReferences] = useState(referenceList);
     const [index, setIndex] = useState(0);
     useEffect(()=>{
         function updateIndex(newIndex){
@@ -29,7 +21,6 @@ const References = () => {
             <div className="reference-list">
 
             <ul style={{ transform: `translateY(-${index * 200}px)`}}>
-                {/* {references.map(ref => <li className="reference" key={crypto.randomUUID()}>{ref}</li>)} */}
                 <li className="reference"> 
                     1. Ortega, L., and Rojas, C.M. (2021). Bacterial panicle blight and <i>Burkholderia glumae</i>: from
 pathogen biology to disease control. <a href="https://doi.org/10.1094/PHYTO-09-20-0401-RVW">doi.org/10.1094/PHYTO-09-20-0401-RVW</a>
